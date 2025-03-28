@@ -16,7 +16,6 @@ jobs:
           node-version: '18'
       - run: cd ShopApp && yarn install
       - run: cd ShopApp && yarn test
-
   android-build:
     runs-on: ubuntu-latest
     steps:
